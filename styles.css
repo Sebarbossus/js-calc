@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.result {
+    max-width: 300px;
+    margin: 5% auto 0;
+}
+.result.jumbotron {
+    padding: 8px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #0a993398;
+    border: 0.6px solid rgba(94, 93, 93, 0.384);
+}
+#result-txt {
+    min-height: 29px;
+}
+.buttons.jumbotron {
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.buttons a {
+    margin: auto;
+    padding: 15px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+}
+.lead {
+    margin: 0;
+    margin-left: 8px;
+    font-size: 20pt;
+    font-weight: 600;
+    color: #000;
+}
+@media (max-width: 480px) {
+    .jumbotron {
+        padding: 4px;
+    }
+    .buttons a {
+        padding: 40px;
+        max-width: 90px;
+    }
+}
